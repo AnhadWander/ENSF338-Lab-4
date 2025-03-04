@@ -18,4 +18,4 @@ Insertion Sort has a time complexity of O(n²) for a doubly linked list because 
 
 Merge Sort has a time complexity of O(n log n) for a doubly linked list, as the list is recursively divided into halves (O(log n)) and then merged back together (O(n)). Unlike arrays, where merging requires extra memory allocation, a doubly linked list can be merged in-place by adjusting pointers, making it more space-efficient. The overall complexity remains O(n log n), just like in arrays, but linked lists avoid additional memory usage since elements do not need to be copied into temporary arrays.
 
- Insertion Sort is preferable for small or nearly sorted lists in a doubly linked list due to its simplicity and stability, while Merge Sort is the better choice for large lists because of its O(n log n) efficiency and in-place merging ability.
+Insertion Sort is preferable for small or nearly sorted lists in a doubly linked list due to its simplicity and stability, while Merge Sort is the better choice for large lists because of its O(n log n) efficiency and in-place merging ability.
